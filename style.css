@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Imbue', serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/*** section area coding start *****/
+.header .container .nav-link{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+
+.header {
+    background: url("../images/Hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.header .container .select-one{
+    color: #511DE5 !importent;
+    text-decoration: underline;
+}
+.header .container .nav-link:hover{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:  #511DE5;
+    text-decoration: underline;
+}
+.header .container .btn{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header .container .btn-two{
+    
+    margin-left: 30px;
+    padding: 0px 30px;
+    color: black;
+    border: 1px solid #511DE5;
+    border-radius: 35px;
+}
+.header .container .btn-two:hover{
+    background: #511DE5;
+    margin-left: 30px;
+    padding: 0px 30px;
+    color: white;
+    border: 1px solid #511DE5;
+}
+.header .container .btn-one{
+    margin-left: 30px;
+    padding: 0px 30px;
+    color: black;
+    border: 1px solid #511DE5;
+    border-radius: 35px;  
+
+}
+
+.header .container .btn-one:hover{
+    background: #511DE5;
+    margin-left: 30px;
+    padding: 0px 30px;
+    color: white;
+    border: 1px solid #511DE5;
+   
+
+}
+.header .container .row .next-part{
+    margin-right: 10px;
+}
+.header .container .row .next-part h1 {
+    font-size: 80px;
+    text-align: right;
+    margin-top: 230px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+   line-height: 85px;
+}
+.header .container .row .next-part .more{
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 150px;
+}
+.header .container .row .next-part h1 span{
+   color: #511DE5;
+}
+.header .container .more-information {
+    padding: 5px 40px;
+    background-color: gray;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 35px;
+    margin-top: 40px; 
+}
+.header .container .more-information i{
+    margin-left: 10px;
+}
+.header .container .more-information:hover {
+    background: #511DE5;
+    color: white;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+}
+
+/* highlight area coding start **/
+
+.highlight-area {
+    background: url("../images/Highlight%20area.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    margin-top: -45px;   
+}
+/* highlight area coding end **/
+
+.highlight-background .container{
+    width: 100%;
+   
+    
+}
+.highlight-background .container .row{
+  
+    text-align: center;
+}
+.highlight-background .container img{
+    width: 1000px;
+    margin-top: 150px;
+    box-shadow: 1px 2px 25px gray;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.highlight-background .container img:hover{
+     box-shadow: 1px 2px 25px black;
+}
+.highlight-background .container .row .bar {
+    background: url("../images/Layer 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+/*** section area coding end *****/
+/*** quto area coding start *****/
+.quto-area {
+    width: 100%;
+    background: url("../images/Bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    
+}
+.quto-area .container h1{
+    margin-top: 70px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.quto-area .container a{
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: black;
+    text-transform: capitalize;
+    margin-left: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 150px;
+    background: white;
+    box-shadow: 1px 1px 15px gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 35px;
+    
+}
+.quto-area .container a:hover{
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid gray;
+    background: #511DE5;
+    color: white;
+    border-radius: 35px;
+    transition-duration: 2s;
+}
+/*** quto area coding end *****/
+
+.features-area .container{
+    width: 100%;
+}
+.features-area .container h1{
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.features-area .container p{
+    font-size: 16px;
+    margin-left: 150px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.features-area .container .feature-image{
+    margin-left: 150px;
+    margin-bottom: 60px;
+}
+.button-area .container a{
+    margin-left: 150px;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+    background-image: linear-gradient(to right, #0642BC, #00B8FE);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 35px;
+    color: white;
+    
+}
+.button-area .container a i{
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+.button-area .container a:hover{
+    background-image: linear-gradient(to right, #00B8FE, #0642BC);
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+.layer-area {
+    background: url("../images/Rectangle 12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+.layer-area .container h1{
+    font-weight: 900px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 65px;
+    margin-bottom: 40px;
+}
+.layer-area .container p{
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.layer-area .sub-row .sub-layer h1{
+    font-weight: 700px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.layer-area .sub-row .sub-layer{
+    text-align: center;
+    border: 1px solid gray;
+}
+.layer-area .sub-row .sub-layer:hover{
+    box-shadow: 1px 3px 15px gray;
+}
+
+
+.inspiration{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.inspiration .container .inspiration-quote{
+    font-weight: 900px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 75px;
+}
+.inspiration .container .col-xl-3{
+    opacity: 0.5;
+}
+.inspiration .container .col-xl-3:hover{
+    text-align: center;
+    box-shadow: 1px 4px 10px black;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 1;
+    background: 
+}
+.inspiration .container .col-xl-3{
+    text-align: center;
+    box-shadow: 1px 4px 10px gray;
+    padding: 10px;
+    box-sizing: border-box;
+    background: 
+}
+.inspiration .container .col-xl-3 p{
+    margin-top: 30px;
+    margin-bottom: 90px;
+    font-weight: 600;
+   
+}
+.inspiration .container .col-xl-3:hover p{
+    margin-top: 30px;
+    margin-bottom: 90px;
+    font-weight: 600;
+    color : linear-gradient(to right, #0642BC, #00B8FE);
+   
+}
+.inspiration .container .col-xl-3 img{
+    margin-bottom: 40px;
+    box-shadow: 2px 5px 28px gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%
+}
+.box-design {
+    width: 100%;
+}
+.box-design .container{
+    text-align: center;
+    margin-left: 555px;
+}
+.box-design .container .col-xl-12{
+    text-align: center;
+}
+.box-design .container .box{
+    width: 600px;
+    height: 650px;
+    background: white !important;
+    border: 1px solid white;
+    padding: 50px 100px;
+    box-shadow: 2px 5px 20px gray;
+}
+.box-design .container .box:hover{
+    box-shadow: 2px 5px 20px black;
+}
+.box-design .container .box h1{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+    
+}
+.box-design .container .box h4{
+    color: #0642BC;
+    font-weight: 600;
+    text-align: left;
+}
+.box-design .container .box p{
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 45px;
+    
+}
+.box-design .container .box h3{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.box-design .container .box .headline{
+    margin-bottom: 100px;
+}
+.mahbub{
+    margin-top: 500px;
+    margin-bottom: 200px;
+}
